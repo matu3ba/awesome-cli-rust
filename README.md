@@ -15,10 +15,9 @@
 [gisht](https://github.com/Xion/gisht) - running gists from shell  
 [just](https://github.com/casey/just) - modern `make` alternative  
 [mdBook](https://github.com/rust-lang-nursery/mdBook) - creating books from Markdown  
-[ripgrep](https://github.com/BurntSushi/ripgrep) - modern `grep` alternative 
+[ripgrep](https://github.com/BurntSushi/ripgrep) - modern `grep` alternative  
 [tin-summer](https://github.com/vmchale/tin-summer) - removing build artefacts (other projects and comparison?)  
-[tokei](https://github.com/XAMPPRocky/tokei) - count LOC fast 
+[tokei](https://github.com/XAMPPRocky/tokei) - count LOC fast  
 [uutils/coreutils](https://github.com/uutils/coreutils) - Crossplatform rewrite for GNU coreutils  
 [xsv](https://github.com/BurntSushi/xsv) - fast csv toolkit  
-
 
