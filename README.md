@@ -11,8 +11,8 @@
 [exa](https://github.com/ogham/exa) - modern `ls` alternative  
 [fd](https://github.com/sharkdp/fd) - modern `find` alternative  
 [gisht](https://github.com/Xion/gisht) - running gists from shell  
+[grex](https://github.com/pemistahl/grex) - Regex building tool  
 [hyperfine](https://github.com/sharkdp/hyperfine) - command line benchmarking tool  
-[just](https://github.com/casey/just) - modern `make` alternative  
 [mdBook](https://github.com/rust-lang-nursery/mdBook) - creating books from Markdown  
 [ripgrep](https://github.com/BurntSushi/ripgrep) - modern `grep` alternative  
 [starship](https://github.com/starship/starship) - cross-platform shell-agnostic modifications  
@@ -21,8 +21,20 @@
 [uutils/coreutils](https://github.com/uutils/coreutils) - Crossplatform rewrite for GNU coreutils  
 [xsv](https://github.com/BurntSushi/xsv) - fast csv toolkit  
 
-## *in progress* ##
-to be filled
+## in progress/not polished yet ##
+[fselect](https://github.com/jhspetersson/fselect) - `find` with SQL syntax  
+[procs](https://github.com/dalance/procs) - not yet polished `ps`/`htop` alternative  
+
+to be filled  
 
 ## todos* ##
-ideas
+[Prettifying csv tables](https://github.com/phsym/prettytable-rs)  [LICENSE]  
+csv converter framework(best would be type-dependant) to all sorts of tables and back  
+
+### No speed requirement ###
+[haku](https://github.com/VladimirMarkelov/haku) - simpler `make` alternative  
+[just](https://github.com/casey/just) - Task runner  
+[skim]()  
+[navi]()  
+[unf](https://github.com/io12/unf) - remove non-unix symbols from filenames
+
