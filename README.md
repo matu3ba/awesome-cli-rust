@@ -9,24 +9,26 @@
 
 [Credits to @kreteshq](https://zaiste.net/posts/shell-commands-rust/)
 for tealdeer, zoxide, rmesg, bandwhich
+and [@ghuls](https://github.com/zaiste/zaiste.net/issues/7) for broot, git-interactive-rebase-tool, broot.
 
 ## Daily usage
 
-| Name      | crates.io | Explanation                                                          | Source                                            | Command |
-| --------- | --------- | ----------------                                                     | ------------------------------------------------- | ------- |
-| bat       | bat       | `cat`                                                                | [bat](https://github.com/sharkdp/bat)             |  bat    |
-| dust      | du-dust   | `du`                                                                 | [dust](https://github.com/bootandy/dust)          |  du     |
-| exa       | exa       | `ls`                                                                 | [exa](https://github.com/ogham/exa)               |  exa    |
-| fd        | fd-find   | `find`                                                               | [fd](https://github.com/sharkdp/fd)               |  fd     |
-| hyperfine | hyperfine | cli benchmarking                                                     | [hyperfine](https://github.com/sharkdp/hyperfine) |hyperfine|
-| procs     | procs     | `top`                                                                | [procs](https://github.com/dalance/procs)         |  procs  |
-| sd        | sd        | `sed`                                                                | [sd](https://github.com/chmln/sd)                 |  sd     |
-| starship  | starship  | shell customization                                                  | [starship](https://github.com/starship/starship)  |use shims|
-| tealdeer  | tealdeer  | [tldr](https://github.com/tldr-pages/tldr) client                    | [tealdeer](https://github.com/dbrgn/tealdeer)     |  tldr   |
-| ripgrep   | ripgrep   | `grep`                                                               | [ripgrep](https://github.com/BurntSushi/ripgrep)  |  rg     |
-| tokei     | tokei     | LOC counting                                                         | [tokei](https://github.com/XAMPPRocky/tokei)      |  tokei  |
-| bottom    | bottom    | `htop`                                                               | [bototm](https://github.com/ClementTsang/bottom)  |  btm    |
-| zoxide    | zoxide    | autojumper                                                           | [zoxide](https://github.com/ajeetdsouza/zoxide)   |  z      |
+| Name      | crates.io | Explanation                                                  | Source                                                | Command |
+| --------- | --------- | ----------------                                             | ----------------------------------------------------- | ------- |
+| bat       | bat       | `cat`                                                        | [bat](https://github.com/sharkdp/bat)                 |  bat    |
+| bottom    | bottom    | `htop`                                                       | [bottom](https://github.com/ClementTsang/bottom)      |  btm    |
+| dust      | du-dust   | `du`                                                         | [dust](https://github.com/bootandy/dust)              |  du     |
+| exa       | exa       | `ls`                                                         | [exa](https://github.com/ogham/exa)                   |  exa    |
+| fd        | fd-find   | `find`                                                       | [fd](https://github.com/sharkdp/fd)                   |  fd     |
+| hyperfine | hyperfine | cli benchmarking                                             | [hyperfine](https://github.com/sharkdp/hyperfine)     |hyperfine|
+| kalk      | kalk_cli  | formula calculator with types and type conversions           | [kalk](https://github.com/PaddiM8/kalk)               | kalk    |
+| procs     | procs     | `top`                                                        | [procs](https://github.com/dalance/procs)             |  procs  |
+| ripgrep   | ripgrep   | `grep`                                                       | [ripgrep](https://github.com/BurntSushi/ripgrep)      |  rg     |
+| sd        | sd        | `sed`                                                        | [sd](https://github.com/chmln/sd)                     |  sd     |
+| starship  | starship  | shell customization                                          | [starship](https://github.com/starship/starship)      |use shims|
+| tealdeer  | tealdeer  | [tldr](https://github.com/tldr-pages/tldr) client            | [tealdeer](https://github.com/dbrgn/tealdeer)         |  tldr   |
+| tokei     | tokei     | LOC counting                                                 | [tokei](https://github.com/XAMPPRocky/tokei)          |  tokei  |
+| zoxide    | zoxide    | autojumper                                                   | [zoxide](https://github.com/ajeetdsouza/zoxide)       |  z      |
 
 
 ## Frequent usage
@@ -57,7 +59,12 @@ for tealdeer, zoxide, rmesg, bandwhich
 ## todos*
 
 [Prettifying csv tables](https://github.com/phsym/prettytable-rs)  [LICENSE]  
-csv converter framework(best would be type-dependant) to all sorts of tables and back  
+csv converter framework(best would be type-dependant) to all sorts of tables and back (author of **kalk** will implement the conversion)  
 
-### No speed requirement
+### No hard to fulfill correctness inclusive or speed requirement
 
+| Name       | crates.io           | Explanation                                       | Source                                                | Command |
+| ---------- | ------------------- | ------------------------------------------------  | ----------------------------------------------------- | ------- |
+| broot      | broot               | directory navigation                              | [broot](https://github.com/Canop/broot)               | br      |
+| hexyl      | hexyl               | `hexdump`                                         | [hexyl](https://github.com/sharkdp/hexyl)             | hexyl   |
+| Git Interactive Rebase Tool      | git-interactive-rebase-tool      | `git rebase -i`| [git-interactive-rebase-tool](https://github.com/MitMaro/git-interactive-rebase-tool)                     | used by git rebase |
