@@ -7,9 +7,9 @@
 
  Feel free to send pull requests.
 
-[Credits to @kreteshq](https://zaiste.net/posts/shell-commands-rust/)
+Credits to [@kreteshq](https://zaiste.net/posts/shell-commands-rust/)
 for tealdeer, zoxide, rmesg, bandwhich
-and [@ghuls](https://github.com/zaiste/zaiste.net/issues/7) for broot, git-interactive-rebase-tool, broot.
+and [@ghuls](https://github.com/zaiste/zaiste.net/issues/7) for broot, git-interactive-rebase-tool.
 
 ## Daily usage
 
@@ -23,6 +23,7 @@ and [@ghuls](https://github.com/zaiste/zaiste.net/issues/7) for broot, git-inter
 | hyperfine | hyperfine | cli benchmarking                                             | [hyperfine](https://github.com/sharkdp/hyperfine)     |hyperfine|
 | kalk      | kalk_cli  | formula calculator with types and type conversions           | [kalk](https://github.com/PaddiM8/kalk)               | kalk    |
 | procs     | procs     | `top`                                                        | [procs](https://github.com/dalance/procs)             |  procs  |
+| rink      | rink      | unit-aware calculator with dimensionality analysis           | [rink](https://github.com/tiffany352/rink-rs)         |  rink   |
 | ripgrep   | ripgrep   | `grep`                                                       | [ripgrep](https://github.com/BurntSushi/ripgrep)      |  rg     |
 | sd        | sd        | `sed`                                                        | [sd](https://github.com/chmln/sd)                     |  sd     |
 | starship  | starship  | shell customization                                          | [starship](https://github.com/starship/starship)      |use shims|
