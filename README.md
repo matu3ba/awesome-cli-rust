@@ -54,8 +54,8 @@ and [@ghuls](https://github.com/zaiste/zaiste.net/issues/7) for broot, git-inter
 
 ## in progress/not polished yet
 
-[fselect](https://github.com/jhspetersson/fselect) - `find` with SQL syntax  
-
+[fselect](https://github.com/jhspetersson/fselect) - `find` with SQL syntax(bad luck: breaks everytime I compile it)  
+[LuminS](https://github.com/wchang22/LuminS) - parallized `rsync`,`cp` and `rm` for local files(no preserve ownership, dry-run, symlink and no RAM-awareness)  
 
 ## todos*
 
