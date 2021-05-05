@@ -1,14 +1,14 @@
 # awesome-rust-cli
 
- This list provides an overview of CLI tools, where Rust shines. &#127774;  
+ This list provides an overview of CLI tools, where Rust shines. &#127774;
  It is intended for __non-language__ specific use cases, where either **correctness** *inclusive or* **performance** is essential.
- *todos* and *in progress* may be added below.  
+ *todos* and *in progress* may be added below.
  Installation instructions after [searching](https://doc.rust-lang.org/cargo/commands/cargo-search.html) are [here](https://doc.rust-lang.org/cargo/getting-started/installation.html) and [here](https://doc.rust-lang.org/cargo/commands/cargo-install.html).
 
  Feel free to send pull requests.
 
 Credits to [@kreteshq](https://zaiste.net/posts/shell-commands-rust/)
-for tealdeer, zoxide, rmesg, bandwhich
+for zoxide, rmesg, bandwhich
 and [@ghuls](https://github.com/zaiste/zaiste.net/issues/7) for broot, git-interactive-rebase-tool.
 
 ## Daily usage
@@ -27,8 +27,9 @@ and [@ghuls](https://github.com/zaiste/zaiste.net/issues/7) for broot, git-inter
 | ripgrep   | ripgrep   | `grep`                                                       | [ripgrep](https://github.com/BurntSushi/ripgrep)      |  rg     |
 | sd        | sd        | `sed`                                                        | [sd](https://github.com/chmln/sd)                     |  sd     |
 | starship  | starship  | shell customization                                          | [starship](https://github.com/starship/starship)      |use shims|
-| tealdeer  | tealdeer  | [tldr](https://github.com/tldr-pages/tldr) client            | [tealdeer](https://github.com/dbrgn/tealdeer)         |  tldr   |
 | tokei     | tokei     | LOC counting                                                 | [tokei](https://github.com/XAMPPRocky/tokei)          |  tokei  |
+| watchexec | watchexec | Executes commands in response to file modifications          | [watchexec](https://github.com/watchexec/watchexec)   |watchexec|
+| zellij    | zellij    | `tmux` with WASM plugins                                     | [zellij](https://github.com/zellij-org/zellij)        |  zellij |
 | zoxide    | zoxide    | autojumper                                                   | [zoxide](https://github.com/ajeetdsouza/zoxide)       |  z      |
 
 
@@ -48,19 +49,18 @@ and [@ghuls](https://github.com/zaiste/zaiste.net/issues/7) for broot, git-inter
 | navi       | navi                | cheatsheet+launcher cli                           | [navi](https://github.com/denisidoro/navi)            |  navi   |
 | skim       | skim                | fuzzy finder                                      | [skim](https://github.com/lotabout/skim)              |use shims|
 
-
 [gisht](https://github.com/Xion/gisht) - running gists from shell
-[uutils/coreutils](https://github.com/uutils/coreutils) - Crossplatform rewrite for GNU coreutils
+[uutils/coreutils](https://github.com/uutils/coreutils) - Crossplatform rewrite for GNU coreutils. However the usage antipatterns of coreutils are not documented.
 
 ## in progress/not polished yet
 
-[fselect](https://github.com/jhspetersson/fselect) - `find` with SQL syntax(bad luck: breaks everytime I compile it)  
-[LuminS](https://github.com/wchang22/LuminS) - parallized `rsync`,`cp` and `rm` for local files(no preserve ownership, dry-run, symlink and no RAM-awareness)  
+[fselect](https://github.com/jhspetersson/fselect) - `find` with SQL syntax(bad luck: breaks everytime I compile it)
+[LuminS](https://github.com/wchang22/LuminS) - parallized `rsync`,`cp` and `rm` for local files(no preserve ownership, dry-run, symlink and no RAM-awareness)
 
 ## todos*
 
-[Prettifying csv tables](https://github.com/phsym/prettytable-rs)  [LICENSE]  
-csv converter framework(best would be type-dependant) to all sorts of tables and back (author of **kalk** will implement the conversion)  
+[Prettifying csv tables](https://github.com/phsym/prettytable-rs)  [LICENSE]
+csv converter framework(best would be type-dependant) to all sorts of tables and back (author of **kalk** will implement the conversion)
 
 ### No hard to fulfill correctness inclusive or speed requirement
 
