@@ -67,7 +67,7 @@ csv converter framework(best would be type-dependant) to all sorts of tables and
 
 | Name       | crates.io           | Explanation                                       | Source                                                | Command |
 | ---------- | ------------------- | ------------------------------------------------  | ----------------------------------------------------- | ------- |
-| broot      | broot               | directory navigation                              | [emulsion](https://github.com/RRethy/tcount)          | emulsion|
-| emulsion   | emulsion            | minimalistic image viewer                         | [broot](https://github.com/Canop/broot)               | br      |
+| broot      | broot               | directory navigation                              | [broot](https://github.com/Canop/broot)               | br      |
+| emulsion   | emulsion            | minimalistic image viewer                         | [emulsion](https://github.com/ArturKovacs/emulsion)   | emulsion|
 | hexyl      | hexyl               | `hexdump`                                         | [hexyl](https://github.com/sharkdp/hexyl)             | hexyl   |
 | Git Interactive Rebase Tool      | git-interactive-rebase-tool      | `git rebase -i`| [git-interactive-rebase-tool](https://github.com/MitMaro/git-interactive-rebase-tool)                     | used by git rebase |
