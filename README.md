@@ -13,24 +13,26 @@ and [@ghuls](https://github.com/zaiste/zaiste.net/issues/7) for broot, git-inter
 
 ## Daily usage
 
-| Name      | crates.io | Explanation                                                  | Source                                                | Command |
-| --------- | --------- | ----------------                                             | ----------------------------------------------------- | ------- |
-| bat       | bat       | `cat`                                                        | [bat](https://github.com/sharkdp/bat)                 |  bat    |
-| bottom    | bottom    | `htop`                                                       | [bottom](https://github.com/ClementTsang/bottom)      |  btm    |
-| dust      | du-dust   | `du`                                                         | [dust](https://github.com/bootandy/dust)              |  du     |
-| exa       | exa       | `ls`                                                         | [exa](https://github.com/ogham/exa)                   |  exa    |
-| fd        | fd-find   | `find`                                                       | [fd](https://github.com/sharkdp/fd)                   |  fd     |
-| hyperfine | hyperfine | cli benchmarking                                             | [hyperfine](https://github.com/sharkdp/hyperfine)     |hyperfine|
-| kalk      | kalk_cli  | formula calculator with types and type conversions           | [kalk](https://github.com/PaddiM8/kalk)               | kalk    |
-| procs     | procs     | `top`                                                        | [procs](https://github.com/dalance/procs)             |  procs  |
-| rink      | rink      | unit-aware calculator with dimensionality analysis           | [rink](https://github.com/tiffany352/rink-rs)         |  rink   |
-| ripgrep   | ripgrep   | `grep`                                                       | [ripgrep](https://github.com/BurntSushi/ripgrep)      |  rg     |
-| sd        | sd        | `sed`                                                        | [sd](https://github.com/chmln/sd)                     |  sd     |
-| starship  | starship  | shell customization                                          | [starship](https://github.com/starship/starship)      |use shims|
-| tokei     | tokei     | LOC counting                                                 | [tokei](https://github.com/XAMPPRocky/tokei)          |  tokei  |
-| watchexec | watchexec | Executes commands in response to file modifications          | [watchexec](https://github.com/watchexec/watchexec)   |watchexec|
-| zellij    | zellij    | `tmux` with WASM plugins                                     | [zellij](https://github.com/zellij-org/zellij)        |  zellij |
-| zoxide    | zoxide    | autojumper                                                   | [zoxide](https://github.com/ajeetdsouza/zoxide)       |  z      |
+| Name      | crates.io | Explanation                                                         | Source                                                | Command |
+| --------- | --------- | ----------------                                                    | ----------------------------------------------------- | ------- |
+| bat       | bat       | `cat` with syntax support, git modifications                        | [bat](https://github.com/sharkdp/bat)                 |  bat    |
+| bottom    | bottom    | `htop`                                                              | [bottom](https://github.com/ClementTsang/bottom)      |  btm    |
+| dust      | du-dust   | `du`                                                                | [dust](https://github.com/bootandy/dust)              |  du     |
+| exa       | exa       | `ls`                                                                | [exa](https://github.com/ogham/exa)                   |  exa    |
+| fd        | fd-find   | `find`                                                              | [fd](https://github.com/sharkdp/fd)                   |  fd     |
+| fd        | fd-find   | `find`                                                              | [fd](https://github.com/sharkdp/fd)                   |  fd     |
+| hck       | hck       | `cat` with decompression, column reordering and regex as delimmiter | [hck](https://github.com/sstadick/hck)                |  hck    |
+| hyperfine | hyperfine | cli benchmarking                                                    | [hyperfine](https://github.com/sharkdp/hyperfine)     |hyperfine|
+| kalk      | kalk_cli  | formula calculator with types and type conversions                  | [kalk](https://github.com/PaddiM8/kalk)               | kalk    |
+| procs     | procs     | `top`                                                               | [procs](https://github.com/dalance/procs)             |  procs  |
+| rink      | rink      | unit-aware calculator with dimensionality analysis                  | [rink](https://github.com/tiffany352/rink-rs)         |  rink   |
+| ripgrep   | ripgrep   | `grep`                                                              | [ripgrep](https://github.com/BurntSushi/ripgrep)      |  rg     |
+| sd        | sd        | `sed`                                                               | [sd](https://github.com/chmln/sd)                     |  sd     |
+| starship  | starship  | shell customization                                                 | [starship](https://github.com/starship/starship)      |use shims|
+| tokei     | tokei     | LOC counting                                                        | [tokei](https://github.com/XAMPPRocky/tokei)          |  tokei  |
+| watchexec | watchexec | Executes commands in response to file modifications                 | [watchexec](https://github.com/watchexec/watchexec)   |watchexec|
+| zellij    | zellij    | `tmux` with WASM plugins                                            | [zellij](https://github.com/zellij-org/zellij)        |  zellij |
+| zoxide    | zoxide    | autojumper                                                          | [zoxide](https://github.com/ajeetdsouza/zoxide)       |  z      |
 
 
 ## Frequent usage
