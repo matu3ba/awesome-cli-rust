@@ -21,7 +21,7 @@ and [@ghuls](https://github.com/zaiste/zaiste.net/issues/7) for broot, git-inter
 | exa       | exa       | `ls`                                                                | [exa](https://github.com/ogham/exa)                   |  exa    |
 | fd        | fd-find   | `find`                                                              | [fd](https://github.com/sharkdp/fd)                   |  fd     |
 | fd        | fd-find   | `find`                                                              | [fd](https://github.com/sharkdp/fd)                   |  fd     |
-| hck       | hck       | `cat` with decompression, column reordering and regex as delimmiter | [hck](https://github.com/sstadick/hck)                |  hck    |
+| hck       | hck       | `cut` with decompression, column reordering and regex as delimiter | [hck](https://github.com/sstadick/hck)                |  hck    |
 | hyperfine | hyperfine | cli benchmarking                                                    | [hyperfine](https://github.com/sharkdp/hyperfine)     |hyperfine|
 | kalk      | kalk_cli  | formula calculator with types and type conversions                  | [kalk](https://github.com/PaddiM8/kalk)               | kalk    |
 | procs     | procs     | `top`                                                               | [procs](https://github.com/dalance/procs)             |  procs  |
